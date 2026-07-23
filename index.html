@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jeshwin William James | Cloud Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Poppins',sans-serif;
+font-family:'Manrope',sans-serif;
 }
 
 body{
-background: linear-gradient(135deg,#020617,#0f172a,#020617);
+background:linear-gradient(135deg,#020617,#0f172a,#020617);
 color:white;
 display:flex;
 justify-content:center;
@@ -27,11 +27,13 @@ min-height:100vh;
 .card{
 width:420px;
 background:rgba(15,23,42,0.7);
-backdrop-filter: blur(20px);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
 padding:35px;
 border-radius:20px;
 box-shadow:0 0 40px rgba(0,0,0,0.4);
 text-align:center;
+border:1px solid rgba(255,255,255,0.08);
 }
 
 .avatar{
@@ -43,19 +45,23 @@ display:flex;
 align-items:center;
 justify-content:center;
 font-size:30px;
-font-weight:600;
-margin:0 auto 15px;
+font-weight:700;
+margin:0 auto 18px;
+box-shadow:0 10px 25px rgba(59,130,246,.35);
 }
 
 h1{
-font-size:22px;
-margin-bottom:5px;
+font-size:24px;
+font-weight:700;
+margin-bottom:6px;
+letter-spacing:-0.5px;
 }
 
 .subtitle{
 color:#94a3b8;
 font-size:14px;
-margin-bottom:25px;
+margin-bottom:28px;
+font-weight:500;
 }
 
 .link{
@@ -68,36 +74,40 @@ border-radius:12px;
 margin:12px 0;
 text-decoration:none;
 color:white;
-transition:0.2s;
+transition:.25s ease;
 border:1px solid rgba(255,255,255,0.05);
 }
 
 .link:hover{
-transform:translateY(-2px);
-background:rgba(51,65,85,0.8);
+transform:translateY(-3px);
+background:rgba(51,65,85,.9);
+border-color:rgba(59,130,246,.35);
+box-shadow:0 10px 25px rgba(59,130,246,.15);
 }
 
 .left{
 display:flex;
 align-items:center;
 gap:12px;
+font-weight:600;
 }
 
 .icon{
-width:32px;
-height:32px;
-border-radius:8px;
+width:34px;
+height:34px;
+border-radius:10px;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:14px;
+font-size:15px;
 background:#1e293b;
 }
 
 .footer{
-margin-top:20px;
+margin-top:24px;
 font-size:12px;
 color:#64748b;
+font-weight:500;
 }
 </style>
 </head>
@@ -116,7 +126,7 @@ color:#64748b;
 <div class="icon">☁️</div>
 Netlify + Neon Database
 </div>
-→
+<span>→</span>
 </a>
 
 <a class="link" href="https://cloud-dev-firebase-63d7a.web.app" target="_blank">
@@ -124,7 +134,7 @@ Netlify + Neon Database
 <div class="icon">🔥</div>
 Firebase Firestore App
 </div>
-→
+<span>→</span>
 </a>
 
 <a class="link" href="https://cloud-dev-firebase-63d7a--preview-g7n9hf10.web.app" target="_blank">
@@ -132,7 +142,7 @@ Firebase Firestore App
 <div class="icon">🚀</div>
 Firebase Preview Deploy
 </div>
-→
+<span>→</span>
 </a>
 
 <div class="footer">
@@ -143,12 +153,6 @@ Cloud Development Portfolio • GitHub Pages
 
 </body>
 </html>
-
-
-
-
-
-
 
 
 
